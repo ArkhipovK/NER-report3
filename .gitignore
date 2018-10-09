@@ -1,0 +1,5 @@
+corpora/
+text/
+fastText/
+.vscode/
+models/fasttext/animals.bin
