@@ -1,0 +1,12 @@
+.git
+build
+dist
+.vscode
+corpora
+text
+models
+intermediate
+labels
+ner_report3/__pycache__
+report3.egg-info
+.eggs

@@ -1,5 +1,12 @@
 corpora/
 text/
-fastText/
+models/
+intermediate/
+labels/
+dist/
+ner_report3/__pycache__/
+build/
+report3.egg-info/
+.eggs/
 .vscode/
-models/fasttext/animals.bin
+build/
