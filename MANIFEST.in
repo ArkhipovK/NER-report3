@@ -1,2 +1,3 @@
 graft ner_report3/nltk_data
 prune ner_report3/__pycache__
+include config.ini

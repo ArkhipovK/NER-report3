@@ -38,10 +38,11 @@ def setup_package():
                   'report3 = ner_report3.__main__:main'
               ]
           },
-          setup_requires=['six'] + sphinx,
+          setup_requires=['six>=1.12.0'] + sphinx,
           use_pyscaffold=True,
           include_package_data=True,
           install_requires=[
+            'six',
             'wikiextractor',
             'numpy>=1.15.2',
             'pandas>=0.23.4',
@@ -58,7 +59,7 @@ def setup_package():
             "git+https://github.com/attardi/wikiextractor.git#egg=wikiextractor",
             "git+https://www.github.com/keras-team/keras-contrib.git#egg=keras_contrib"
           ],
-          data_files=[('ner_report3',['config.ini'])]
+          data_files=[('ner_report3', ['config.ini'])]
           )
 
 
